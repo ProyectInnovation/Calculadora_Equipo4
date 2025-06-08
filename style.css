@@ -1,32 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contenedor {
   text-align: center;
-  padding: 50px;
-  background-color: #f0f0f0;
-}
-
-.calculadora {
-  background-color: white;
-  border-radius: 10px;
+  background: white;
   padding: 30px;
-  display: inline-block;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-input {
-  margin: 10px;
+.inputs input {
   padding: 10px;
-  width: 150px;
+  margin: 10px;
+  width: 120px;
   font-size: 16px;
+}
+
+.botones {
+  margin-top: 20px;
 }
 
 button {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
   margin: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
   cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-h2 {
-  margin-top: 20px;
+button:hover {
+  background-color: #5a4bcf;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #888;
+  text-align: center;
 }

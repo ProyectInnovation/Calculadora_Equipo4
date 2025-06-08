@@ -2,25 +2,36 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Calculadora Básica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="calculadora">
-    <h1>Calculadora Básica</h1>
-    <input type="number" id="numero1" placeholder="Número 1">
-    <input type="number" id="numero2" placeholder="Número 2">
+  <div class="contenedor">
+    <h1>Calculadora</h1>
+
+    <div class="inputs">
+      <input type="number" id="numero1" placeholder="Número 1">
+      <input type="number" id="numero2" placeholder="Número 2">
+    </div>
 
     <div class="botones">
-      <button onclick="operar('+')">Sumar</button>
-      <button onclick="operar('-')">Restar</button>
-      <button onclick="operar('*')">Multiplicar</button>
-      <button onclick="operar('/')">Dividir</button>
+      <button onclick="operar('+')">+</button>
+      <button onclick="operar('-')">−</button>
+      <button onclick="operar('*')">×</button>
+      <button onclick="operar('/')">÷</button>
     </div>
 
     <h2>Resultado: <span id="resultado">0</span></h2>
+
+        <footer>
+      <p>Hecho por Equipo 4 💻</p>
+    </footer>
   </div>
 
   <script src="script.js"></script>
+
+  
 </body>
+
 </html>
