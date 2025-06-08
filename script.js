@@ -27,5 +27,6 @@ function operar(operacion) {
       break;
   }
 
-  document.getElementById("resultado").textContent = resultado;
+  document.getElementById("resultado").textContent = `${num1} ${operacion} ${num2} = ${resultado}`;
+
 }
