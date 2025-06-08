@@ -45,3 +45,9 @@ button:hover {
   background-color: #5a4bcf;
   transform: scale(1.05);
 }
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #888;
+}
